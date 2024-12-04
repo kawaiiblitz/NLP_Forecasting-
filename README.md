@@ -29,14 +29,14 @@ Este repositorio contiene la solución al desafío de Data Science, dividido en 
 - **`requirements.txt`**: Especifica las dependencias necesarias para ejecutar el proyecto.
 
 
-## **Requerimientos**
-Este proyecto requiere **Python 3.8.20**. Las dependencias necesarias están detalladas en el archivo `requirements.txt`. Para instalarlas, utiliza el siguiente comando:
-```bash
-pip install -r requirements.txt
-
-
 ## **Ejemplo de Uso**
 - **Usar Zero-shot classification**  
    Ejecuta el siguiente comando desde la carpeta `nlp/scripts`:
    ```bash
    python zero_shot.py
+
+## **Requerimientos**
+Este proyecto requiere **Python 3.8.20**. Las dependencias necesarias están detalladas en el archivo `requirements.txt`. Para instalarlas, utiliza el siguiente comando:
+```bash
+pip install -r requirements.txt
+
