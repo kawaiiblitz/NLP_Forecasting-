@@ -9,10 +9,6 @@ Utiliza el modelo 'all-MiniLM-L6-v2' para convertir sentencias y etiquetas en re
 y luego calcula la similitud coseno entre los embeddings para asignar etiquetas predichas a las oraciones.
 La métrica principal utilizada para evaluar el desempeño del modelo es la exactitud (accuracy), 
 acompañada de un reporte de clasificación detallado.
-
-En este caso de estudio:
-- Las etiquetas verdaderas representan categorías semánticas específicas.
-- Las descripciones de las etiquetas proporcionan contexto adicional que mejora la clasificación.
 """
 
 
