@@ -30,7 +30,7 @@ Este repositorio contiene la solución al desafío de Data Science, dividido en 
 
 
 ## **Ejemplo de Uso**
-- **Usar Zero-shot classification**  
+- **Zero-shot classification**  
    Ejecuta el siguiente comando desde la carpeta `nlp/scripts`:
    ```bash
    python zero_shot.py
