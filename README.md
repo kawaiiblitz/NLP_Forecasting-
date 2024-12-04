@@ -2,7 +2,7 @@
 Este repositorio contiene la solución al desafío de Data Science, dividido en dos partes principales: **clasificación de sentencias (NLP)** y **forecasting (predicción de ventas)**. Ambas soluciones fueron desarrolladas utilizando enfoques avanzados de Machine Learning y AI.
 
 ### Carpetas
-
+#### **Parte 1: Clasificación de Sentencias (NLP)**
 - **`nlp/data`**: Contiene el dataset con las sentencias y sus etiquetas.
   - `sentences.txt`: Dataset de sentencias y sus etiquetas correspondientes.
 
@@ -14,6 +14,7 @@ Este repositorio contiene la solución al desafío de Data Science, dividido en 
   - `similitud.py`: Clasificación utilizando embeddings y similitud coseno.
   - `zero_shot.py`: Clasificación utilizando técnicas de Zero-shot.
 
+#### **Parte 2: Forecasting de ventas**
 - **`forecasting/data`**: Contiene el dataset de ventas históricas y factores exógenos.
   - `forecasting.txt`: Dataset de ventas, promociones y días festivos.
 
@@ -28,3 +29,7 @@ Este repositorio contiene la solución al desafío de Data Science, dividido en 
 - **`requirements.txt`**: Especifica las dependencias necesarias para ejecutar el proyecto.
 
 
+## **Requerimientos**
+Este proyecto requiere **Python 3.8.20**. Las dependencias necesarias están detalladas en el archivo `requirements.txt`. Para instalarlas, utiliza el siguiente comando:
+```bash
+pip install -r requirements.txt
