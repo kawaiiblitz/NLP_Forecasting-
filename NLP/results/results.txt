@@ -1,0 +1,104 @@
+Resultados Desafío 1.
+
+1. Zero-shot Learning
+Sentence: The axolotl is more than a peculiar amphibian; in its natural environment, it plays an essential role in the ecological stability of the Xochimilco canals.
+Predicted label: animal, Probability: 0.8566
+--------------------------------------------------------------------------------
+Sentence: Geoffrey Hinton, Yann LeCun and Yoshua Bengio are considered the ‘godfathers’ of an essential technique in artificial intelligence, called ‘deep learning’.
+Predicted label: artificial intelligence, Probability: 0.8427
+--------------------------------------------------------------------------------
+Sentence: Greenland is about to open up to adventure-seeking visitors. How many tourists will come is yet to be seen, but the three new airports will bring profound change.
+Predicted label: travel, Probability: 0.8557
+--------------------------------------------------------------------------------
+Sentence: GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration.
+Predicted label: artificial intelligence, Probability: 0.8889
+--------------------------------------------------------------------------------
+Sentence: I have a problem with my laptop that needs to be resolved asap!!
+Predicted label: urgent, Probability: 0.5508
+--------------------------------------------------------------------------------
+Accuracy: 1.00
+
+Classification Report:
+                         precision    recall  f1-score   support
+
+                 urgent       1.00      1.00      1.00         1
+artificial intelligence       1.00      1.00      1.00         2
+               computer       0.00      0.00      0.00         0
+                 travel       1.00      1.00      1.00         1
+                 animal       1.00      1.00      1.00         1
+                fiction       0.00      0.00      0.00         0
+
+              micro avg       1.00      1.00      1.00         5
+              macro avg       0.67      0.67      0.67         5
+           weighted avg       1.00      1.00      1.00         5
+
+
+2. Similitud
+Sentence 1: "The axolotl is more than a peculiar amphibian; in its natural environment, it plays an essential role in the ecological stability of the Xochimilco canals."
+Predicted label: animal
+Probability: 0.7209
+--------------------------------------------------------------------------------
+Sentence 2: "Geoffrey Hinton, Yann LeCun and Yoshua Bengio are considered the ‘godfathers’ of an essential technique in artificial intelligence, called ‘deep learning’."
+Predicted label: artificial intelligence
+Probability: 0.3834
+--------------------------------------------------------------------------------
+Sentence 3: "Greenland is about to open up to adventure-seeking visitors. How many tourists will come is yet to be seen, but the three new airports will bring profound change."      
+Predicted label: travel
+Probability: 0.4031
+--------------------------------------------------------------------------------
+Sentence 4: "GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration." 
+Predicted label: artificial intelligence
+Probability: 0.2809
+--------------------------------------------------------------------------------
+Sentence 5: "I have a problem with my laptop that needs to be resolved asap!!"
+Predicted label: urgent
+Probability: 0.4103
+--------------------------------------------------------------------------------
+Accuracy: 1.00
+
+Classification Report:
+                         precision    recall  f1-score   support
+
+                 urgent       1.00      1.00      1.00         1
+artificial intelligence       1.00      1.00      1.00         2
+               computer       0.00      0.00      0.00         0
+                 travel       1.00      1.00      1.00         1
+                 animal       1.00      1.00      1.00         1
+                fiction       0.00      0.00      0.00         0
+
+              micro avg       1.00      1.00      1.00         5
+              macro avg       0.67      0.67      0.67         5
+           weighted avg       1.00      1.00      1.00         5
+
+
+3. GPT4o
+Sentence 1: The axolotl is more than a peculiar amphibian; in its natural environment, it plays an essential role in the ecological stability of the Xochimilco canals.
+Predicted label: Animal, Probability: 0.95
+--------------------------------------------------------------------------------
+Sentence 2: Geoffrey Hinton, Yann LeCun and Yoshua Bengio are considered the 'godfathers' of an essential technique in artificial intelligence, called 'deep learning'.
+Predicted label: Artificial Intelligence, Probability: 0.95
+--------------------------------------------------------------------------------
+Sentence 3: Greenland is about to open up to adventure-seeking visitors. How many tourists will come is yet to be seen, but the three new airports will bring profound change.
+Predicted label: Travel, Probability: 0.95
+--------------------------------------------------------------------------------
+Sentence 4: GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration.
+Predicted label: artificial intelligence, Probability: 0.95
+--------------------------------------------------------------------------------
+Sentence 5: I have a problem with my laptop that needs to be resolved asap!!
+Predicted label: urgent, Probability: 0.85
+--------------------------------------------------------------------------------
+Accuracy: 1.00
+
+Classification Report:
+                         precision    recall  f1-score   support
+
+                 urgent       1.00      1.00      1.00         1
+artificial intelligence       1.00      1.00      1.00         2
+               computer       0.00      0.00      0.00         0
+                 travel       1.00      1.00      1.00         1
+                 animal       1.00      1.00      1.00         1
+                fiction       0.00      0.00      0.00         0
+
+              micro avg       1.00      1.00      1.00         5
+              macro avg       0.67      0.67      0.67         5
+           weighted avg       1.00      1.00      1.00         5
