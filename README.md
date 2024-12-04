@@ -11,7 +11,7 @@ Este repositorio contiene la solución al desafío de Data Science, dividido en 
 
 - **`nlp/scripts`**: Scripts en Python para la clasificación de sentencias.
   - `open_ai.py`: Clasificación utilizando OpenAI GPT.
-  - `similitud.py`: Clasificación utilizando embeddings y similitud coseno.
+  - `similitud.py`: Clasificación utilizando embeddings y similitud.
   - `zero_shot.py`: Clasificación utilizando técnicas de Zero-shot.
 
 #### **Parte 2: Forecasting de ventas**
@@ -19,14 +19,14 @@ Este repositorio contiene la solución al desafío de Data Science, dividido en 
   - `forecasting.txt`: Dataset de ventas, promociones y días festivos.
 
 - **`forecasting/notebooks`**: Notebooks de Jupyter para visualizaciones y análisis de series de tiempo.
-  - `graphs.ipynb`: Análisis exploratorio y gráficos de datos.
+  - `graphs.ipynb`: 
 
 - **`forecasting/scripts`**: Scripts en Python para los modelos de forecasting.
   - `LSTM.py`: Predicción utilizando modelos LSTM.
   - `prophet.py`: Predicción utilizando Prophet.
   - `SARIMAX_ARIMAX.py`: Predicción utilizando SARIMAX y ARIMA.
 
-- **`requirements.txt`**: Especifica las dependencias necesarias para ejecutar el proyecto.
+- **`requirements.txt`**: Especifica las dependencias necesarias para ejecución del proyecto.
 
 
 ## **Ejemplo de Uso**
