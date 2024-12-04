@@ -35,6 +35,7 @@ Este proyecto requiere **Python 3.8.20**. Las dependencias necesarias están det
 pip install -r requirements.txt
 
 
+## **Ejemplo de Uso**
 - **Usar Zero-shot classification**  
    Ejecuta el siguiente comando desde la carpeta `nlp/scripts`:
    ```bash
