@@ -1,5 +1,5 @@
 # **Data Science Challenge**
-Este repositorio contiene la solución al desafío de Data Science, dividido en dos partes principales: **clasificación de sentencias (NLP)** y **forecasting (predicción de ventas)**. Ambas soluciones fueron desarrolladas utilizando enfoques avanzados de Machine Learning y AI.
+Este repositorio contiene dos desafíos: **clasificación de sentencias (NLP)** y **forecasting (predicción de ventas)**. Ambas soluciones fueron desarrolladas utilizando enfoques avanzados de Machine Learning y AI.
 
 ## **Estructura de las carpetas**
 #### **Parte 1: Clasificación de Sentencias (NLP)**
